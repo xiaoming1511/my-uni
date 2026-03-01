@@ -1,10 +1,6 @@
 // postcss.config.js
-export default {
+module.exports = {
   plugins: {
-    "weapp-tailwindcss/postcss": {
-      rem2rpx: true,
-    },
-    "@tailwindcss/postcss": {},
     autoprefixer: {},
   },
 };

@@ -11,13 +11,3 @@ export default {
   },
 };
 </script>
-
-<style>
-@import "tailwindcss";
-
-/* 额外添加：解决小程序内 base 样式冲突 */
-view,
-text {
-  box-sizing: border-box;
-}
-</style>
